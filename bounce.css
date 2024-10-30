@@ -1,0 +1,131 @@
+fieldset {
+	border: 1px solid #ebebeb;
+	padding: 10px;
+}
+
+strong.label, legend, label {
+	font-family: serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px;
+}
+
+legend {
+	margin-left: -1px;
+}
+
+strong.label, label {
+ width: 175px;
+ display: block;
+ float: left;
+}
+
+label.strong {
+	width: 100px;
+	font-size: 1em;
+	padding: 0;
+	display: block;
+	font-family: sans-serif;
+	clear: left;
+}
+
+.paymentgroup {
+	float: left;
+}
+
+.form-row {
+	padding: 10px;
+	height: 30px;
+}
+
+.boxpaypal, .boxcheck {
+	display: none;
+}
+
+#bounce_footer {
+	margin-top: 10px;
+}
+
+ul#bounce {
+	margin: 0;
+	padding: 0;
+}
+
+ul#bounce li {
+	margin: 0;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	float: left;
+	list-style-type: none;
+}
+
+#wpl, #wpr {
+	clear: both;
+}
+
+.col-left, .col-right {
+	float: left;
+	width: 480px;
+}
+
+#yes, #no {
+	margin-top: 5px;
+	margin-left: -30px;
+	border: 1px solid #80B5D0;
+	display: block;
+	width: 65px;
+	padding-top: 5px;
+	height: 25px;
+	text-align: right;
+	font-size: 120%;
+	text-decoration: none;
+	padding-right: 5px;
+}
+
+#yes, #no, .col-right {
+	background: #CEE1EF;
+	color: #333;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#yes {
+	background: #CEE1EF url(../wp-content/plugins/bounce/yes.png) no-repeat 5px center;
+}
+
+#no {
+	background: #CEE1EF url(../wp-content/plugins/bounce/no.png) no-repeat 5px center;
+}
+
+.col-right h4 {
+	padding: 6px;
+	font-size: 1.4em;
+	font-family: serif;
+	border-bottom: 1px solid #666;
+	width: 460px;
+	margin: 4px;
+	color: #333;
+}
+
+.submit-ajax {
+	padding-right: 40px;
+	width: 120px;
+}
+
+.submit-ajax:focus {
+	outline: none;
+}
+
+.submit-ajax::-moz-focus-inner {
+	border: none;
+}
+
+#login_error, #register_error {
+	border: 1px solid #800000;
+	background: #FF6666;
+	color: #CC0000;
+	padding: 20px;
+	display: none;
+}
+
+/* @override http://xentek.net/wp-content/plugins/bounce/bounce.css */
